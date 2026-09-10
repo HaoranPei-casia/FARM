@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+dist/
+build/
+*.egg-info/
+
+outputs/
+examples/toy_data/
+*.pt
+*.pth
+*.npy
+*.npz
+predictions*.csv

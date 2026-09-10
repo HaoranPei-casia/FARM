@@ -1,0 +1,14 @@
+{
+  "manifest": "../examples/toy_data/source_manifest.csv",
+  "output_checkpoint": "../outputs/farm_toy.pt",
+  "input_width": 8,
+  "hidden_width": 4,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "gradient_clip_norm": 1.0,
+  "trajectory_batch": 2,
+  "max_epochs": 4,
+  "patience": 2,
+  "seed": 0,
+  "device": "auto"
+}
